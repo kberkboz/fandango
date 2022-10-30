@@ -2,6 +2,8 @@
 Automated Pentesting
 
 Fandango is an automated pentesting tool targeted to businesses. While other automated pentesting tools only attack systems, Fandango attacks users on top of systems. It utilizes weaknesses in the user's habits through attacks like phishing, mitm and brute force. Fandango runs on Kali Linux and has a graphic UI.<br>
+<b>Warning: Fandango is intended for legal use only and should not be used for illegal practices. Thus, it keeps logs of users to prevent harmful use. <br></b>
+Also check out fandangosoftware.com
 # Features: <br>
 <b>Vulnerability Scanner<br></b>
 <b>Man in the Middle Attack:<br></b>
