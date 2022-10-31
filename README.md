@@ -23,4 +23,6 @@ run setup.py and follow the instructions<br>
 to start fandango run sudo python fandango.py<br>
 <br><br>
 or download virtual machine with Fandango Pre-installed in <b>fandangosoftware.com<br></b>
-  
+<b><br>
+Warning: For the brute force attack to work you need to have a wordlist in the directory. You can create your own wordlist or you can download rockyou.txt on GitHub and Kaggle. <br>
+Alternatively you can download Fandango from fandangosoftware.com which includes rockyou.txt</b>
