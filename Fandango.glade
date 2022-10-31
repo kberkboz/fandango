@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.40.0 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="window1">
+    <property name="can-focus">False</property>
+    <property name="default-width">440</property>
+    <property name="default-height">250</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkImage">
+            <property name="width-request">234</property>
+            <property name="height-request">299</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="xpad">0</property>
+            <property name="pixbuf">logo.png</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="button1">
+            <property name="label" translatable="yes">Run Full Scan</property>
+            <property name="width-request">120</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <property name="margin-right">39</property>
+            <signal name="clicked" handler="on_button1_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">363</property>
+            <property name="y">102</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">320</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">This will execute all available attacks!</property>
+            <property name="justify">center</property>
+            <attributes>
+              <attribute name="font-desc" value="Hack Bold 10"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">265</property>
+            <property name="y">167</property>
+          </packing>
+        </child>
+        <child>
+          <!-- n-columns=3 n-rows=2 -->
+          <object class="GtkGrid">
+            <property name="width-request">650</property>
+            <property name="height-request">85</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="row-spacing">25</property>
+            <property name="column-spacing">40</property>
+            <property name="row-homogeneous">True</property>
+            <property name="column-homogeneous">True</property>
+            <child>
+              <object class="GtkButton" id="button2">
+                <property name="label" translatable="yes">Vulnerability Scanner</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="tooltip-text" translatable="yes">Scan target for system vulnerabilities</property>
+                <signal name="clicked" handler="on_button2_clicked" swapped="no"/>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button3">
+                <property name="label" translatable="yes">Man in the Middle</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="tooltip-text" translatable="yes">Man in the Middle Attack: Capture and modify target's traffic </property>
+                <signal name="clicked" handler="on_button3_clicked" swapped="no"/>
+              </object>
+              <packing>
+                <property name="left-attach">1</property>
+                <property name="top-attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button4">
+                <property name="label" translatable="yes">DoS Attack</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="tooltip-text" translatable="yes"> Denial-of-Service Attack: Flood target with traffic</property>
+                <signal name="clicked" handler="on_button4_clicked" swapped="no"/>
+              </object>
+              <packing>
+                <property name="left-attach">2</property>
+                <property name="top-attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button5">
+                <property name="label" translatable="yes">Phishing Attack</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="tooltip-text" translatable="yes">Hunt email addresses and send phishing emails</property>
+                <signal name="clicked" handler="on_button5_clicked" swapped="no"/>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button6">
+                <property name="label" translatable="yes">Brute Force Attack</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="tooltip-text" translatable="yes">Brute force gmail and hotmail account passwords</property>
+                <signal name="clicked" handler="on_button6_clicked" swapped="no"/>
+              </object>
+              <packing>
+                <property name="left-attach">1</property>
+                <property name="top-attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button7">
+                <property name="label" translatable="yes">Advanced Assistance</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="tooltip-text" translatable="yes">A guide for all your pentesting needs (recommended for advanced users)</property>
+                <signal name="clicked" handler="on_button7_clicked" swapped="no"/>
+              </object>
+              <packing>
+                <property name="left-attach">2</property>
+                <property name="top-attach">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="y">330</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">548</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Warning: Run mac_changer.py and change MAC adress to increase anonymity in some attacks!</property>
+            <attributes>
+              <attribute name="font-desc" value="Hack Bold 8"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">48</property>
+            <property name="y">416</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
